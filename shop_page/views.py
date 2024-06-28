@@ -1,13 +1,15 @@
+#імпортация всіх модулів
 import flask, os, pandas
 from project.settings import db
 from shop_page.models import Product
 from registration_page.models import User
 
+#Функція відображення сторінки shop.html 
 
 def render_shop():
 
     if Product.query.count() >= 3:
-        return flask.render_template(template_name_or_list= "shop.html", login = User.query.all())
+        return flask.render_template(template_name_or_list= "shop.html", login = User.query.all(), products = Product.query.all())
     
     else:
         path = os.path.abspath(__file__ + '/../Product.xlsx')
@@ -29,8 +31,7 @@ def render_shop():
 
         login = User.query.all()
         products = Product.query.all()
-
-        return flask.render_template(template_name_or_list= "shop.html", login = login, products = products)#
         
-        # return flask.render_template(template_name_or_list= "shop.html", products = Product.query.all())
+        #Рендер сторінки
+        return flask.render_template(template_name_or_list= "shop.html", login = login, products = products)
         

@@ -1,8 +1,8 @@
 import flask, flask_sqlalchemy, flask_migrate, os
 
 project = flask.Flask(
-    import_name="settings",
-    template_folder="project/templates",
+    import_name="project",
+    template_folder="templates",
     static_folder='/static/',
     instance_path= os.path.abspath(__file__ + '/..')
 

@@ -16,6 +16,7 @@ shop_page.shop.add_url_rule('/shop', view_func=shop_page.render_shop, methods = 
 # shop_page.shop.add_url_rule('/shop_next', view_func=shop_page.render_shop_next, methods = ['POST', 'GET'])
 
 cart_page.cart.add_url_rule('/cart', view_func=cart_page.render_cart, methods=['POST', 'GET'])
+cart_page.cart.add_url_rule('/cart_process', view_func=cart_page.render_cart_process, methods=['POST', 'GET'])
 # cart_page.basket.add_url_rule('/basket', view_func=cart_page.render_cart, methods=['POST', 'GET'])
 
 admin_page.admin.add_url_rule('/admin', view_func=admin_page.render_admin, methods=['POST', 'GET'])

@@ -15,7 +15,6 @@
         <p id="one">1</p>
         <div class="number"></div>
         <a href="/contacts">CONTACTS</a>
-        <p class="username">{{ login[-1]['login'] }}</p>
     </div>
     <div style="display: flex; width: 70%;">
         <div id="main">
@@ -58,6 +57,48 @@
         </div>
     </div>
 
+    <div class="order" style="display: none;">
+        <form name="form-order" class="form-order">
+            <div class="center">
+                <p id="main-order">ОФОРМЛЕННЯ ЗАМОВЛЕННЯ</p>
+            </div>
+            <div class="second div" >
+                <div class="left">
+                    <p class="pip" id="name" name="name">ІМ'Я:</p>
+                </div>
+                <input class="input" type="text" name="name">
+                <div class="left">
+                    <p class="pip" id="surname">ПРІЗВИЩЕ:</p>
+                </div>
+                <input class="input" type="text" name="surname">
+                <div class="left">
+                    <p class="pip" id="phone">ТЕЛЕФОН ЗАМОВНИКА:</p>
+                </div>
+                <input class="input" type="text" name="phone">
+                <div class="left">
+                    <p class="pip" id="email">EMAIL ЗАМОВНИКА:</p>
+                </div>
+                <input class="input" type="text" name="email">
+                <div class="left">
+                    <p class="pip" id="city">МІСТО ОТРИМУВАЧА:</p>
+                </div>
+                <input class="input" type="text" name="city">
+                <div class="left">
+                    <p class="pip" id="department">ВІДДІЛЕННЯ НОВОЇ ПОШТИ:</p>
+                </div>
+                <input class="input" type="text" name="poshta">
+                <div class="left">
+                    <p class="pip" id="other-client" name="other-client">ДОДАТКОВІ ПОБАЖАННЯ:</p>
+                </div>
+                <textarea name="wishes" id="dodatkovi" cols="30" rows="10"></textarea>
+
+                <button name="send" class="send" id="send">SEND</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="{{ url_for('cart.static', filename='js/order.js') }}"></script>
     <script src="{{ url_for('cart.static', filename='js/plus.js') }}"></script>
     <script src="{{ url_for('cart.static', filename='js/minus.js') }}"></script>
     <script src="{{ url_for('cart.static', filename='js/price.js') }}"></script>

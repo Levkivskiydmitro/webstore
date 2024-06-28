@@ -2,7 +2,7 @@ import flask
 
 shop = flask.Blueprint(
     name='shop',
-    import_name='app',
-    template_folder='shop_page/templates',
-    static_folder="./static/shop_page"
+    import_name='shop_page',
+    template_folder='templates',
+    static_folder="../static/shop_page"
 )
