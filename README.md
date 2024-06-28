@@ -258,3 +258,4 @@ def render_register_next():
 
     return flask.render_template(template_name_or_list="registration_next.html")
 ```
+![image](https://github.com/Levkivskiydmitro/webstore/assets/131282858/11493277-0100-4276-936d-19d6ccf3aa88)
