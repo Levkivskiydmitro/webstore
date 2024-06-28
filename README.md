@@ -1,26 +1,26 @@
-
-# Назва проекту: Shop<br/>
+# Project name / Назва проекту: Shop<br/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ваше_видео_id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br/> Це електронний магазин де користувачі можуть купить товари<br/> 
-<br/>Проект підтримує и вносить вклад:<br/>
+<br/>This is an electronic store where users can buy products / Це електронний магазин де користувачі можуть купить товари<br/> 
+<br/>The project supports and contributes to / Проект підтримує и вносить вклад:<br/>
 
-Дмитро Левківський - https://github.com/Levkivskiydmitro<br/>
-Дмитро Печенюк - https://github.com/DmitriyPechenyuk0<br/>
-Артем Свістун - https://github.com/asvistun5<br/>
+Dmytro Levkivskyi / Дмитро Левківський - https://github.com/Levkivskiydmitro<br/>
+Dmytro Pechenyuk / Дмитро Печенюк - https://github.com/DmitriyPechenyuk0<br/>
+Artem Svistun / Артем Свістун - https://github.com/asvistun5<br/>
 
-Shop Project - це веб-додаток для управління інтернет-магазином. Він дозволяє користувачам переглядати товари, додавати їх у кошик, 
+Shop Project - is a web application for managing an online store. It allows users to browse products, add them to the cart, 
+make an order and make a payment  /  це веб-додаток для управління інтернет-магазином. Він дозволяє користувачам переглядати товари, додавати їх у кошик, 
 робити замовлення та здійснювати оплату.
 
-# Мови які застосовувались у цьому проекті<br/>
+# Languages ​​used in this project / Мови які застосовувались у цьому проекті<br/>
 
-python 3.12.3 - Основна мова проекту, використовується для backend розробки<br/>
-js 1.0 - Використовуєтся для создання інтерактивних сторінок сайту<br/>
-html 5 - Використовуєтся для створення шаблонів <br/>
-css 3 - Використовуєтся для роботи зі стилями<br/>
+python 3.12.3 - The main language of the project, used for backend development / Основна мова проекту, використовується для backend розробки<br/>
+js 1.0 - It is used to create interactive website pages / Використовуєтся для создання інтерактивних сторінок сайту<br/>
+html 5 - It is used to create templates / Використовуєтся для створення шаблонів <br/>
+css 3 - It is used to work with styles / Використовуєтся для роботи зі стилями<br/>
 
-# Технології які використовувались у цьому проекті<br/>
+# Technologies used in this project / Технології які використовувались у цьому проекті<br/>
 
 flask 3.0.3 - Основний модуль на якому написан сайт<br/>
 flask_sqlalchemy 3.1.1 - Модуль для роботи з базою даних<br/>
@@ -34,11 +34,12 @@ Jinja2 3.1.3 -  Для створення шаблонів та блоків<br/
 pandas 2.2.2 - Для читання та парсу даних з excel таблиці<br/>
 openpyxl 3.1.2 - Для коректного відкриття excel таблиці<br/>
 
-# Структура проекту:
+#  Project structure / Структура проекту:
 
 ![alt text]("Image")
+image.png 
 
-# Додаток home:
+# home app / Додаток home:
 
 ```python
 #імпортуємо модуль flask
@@ -54,7 +55,7 @@ home = flask.Blueprint(
 
 ```
 
-# Views.py наших додатків
+# Views.py of our apps / Views.py наших додатків
 
 ### home:
 
@@ -258,4 +259,4 @@ def render_register_next():
 
     return flask.render_template(template_name_or_list="registration_next.html")
 ```
-![image](https://github.com/Levkivskiydmitro/webstore/assets/131282858/11493277-0100-4276-936d-19d6ccf3aa88)
+
