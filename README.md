@@ -179,7 +179,7 @@ def render_cart():
     return flask.render_template(template_name_or_list="cart.html", login=User.query.all())
 ```
 
-### shooop:
+### shop:
 
 ```python
 #імпортация всіх модулів
@@ -220,7 +220,7 @@ def render_shop():
         return flask.render_template(template_name_or_list= "shop.html", login = login, products = products)
 ```
 
-### regiiiiiiistration:
+### registration:
 
 ```python
 import flask
