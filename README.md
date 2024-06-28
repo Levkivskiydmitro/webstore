@@ -1,7 +1,7 @@
 # Project name / Назва проекту: Shop<br/>
 
-<br/>This is an electronic store where users can buy products / Це електронний магазин де користувачі можуть купить товари<br/> 
-<br/>The project supports and contributes to / Проект підтримує и вносить вклад:<br/>
+<br/>This is an electronic store where users can buy products / Це електронний магазин де користувачі можуть купити товари<br/> 
+<br/>The project supports and contributes to / Проект підтримує й вносить вклад:<br/>
 
 Dmytro Levkivskyi / Дмитро Левківський - https://github.com/Levkivskiydmitro<br/>
 Dmytro Pechenyuk / Дмитро Печенюк - https://github.com/DmitriyPechenyuk0<br/>
