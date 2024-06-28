@@ -15,24 +15,24 @@ make an order and make a payment  /  це веб-додаток для упра�
 
 # Languages ​​used in this project / Мови які застосовувались у цьому проекті<br/>
 
-python 3.12.3 - The main language of the project, used for backend development / Основна мова проекту, використовується для backend розробки<br/>
-js 1.0 - It is used to create interactive website pages / Використовуєтся для создання інтерактивних сторінок сайту<br/>
-html 5 - It is used to create templates / Використовуєтся для створення шаблонів <br/>
-css 3 - It is used to work with styles / Використовуєтся для роботи зі стилями<br/>
+<b>python 3.12.3</b> - The main language of the project, used for backend development / Основна мова проекту, використовується для backend розробки<br/>
+<b>js 1.0</b> - It is used to create interactive website pages / Використовуєтся для создання інтерактивних сторінок сайту<br/>
+<b>html 5</b> - It is used to create templates / Використовуєтся для створення шаблонів <br/>
+<b>css 3</b> - It is used to work with styles / Використовуєтся для роботи зі стилями<br/>
 
 # Technologies used in this project / Технології які використовувались у цьому проекті<br/>
 
-flask 3.0.3 -  The main module on which the site is written / Основний модуль на якому написан сайт<br/>
-flask_sqlalchemy 3.1.1 - A module for working with a database / Модуль для роботи з базою даних<br/>
-flask_migrate 4.0.7 - Database initialization module / Модуль для ініціалізації бази даних<br/>
-flask_mail 0.10.0 - Module for sending a message to the user's mail / Модуль для відправлення повідомлення на почту користувача<br/>
-flask_login 0.6.3 - Для реєстрації користувача на сайті / Модуль для реєстрації користувача на сайті<br/>
-os - Module for working with the system / Модуль для роботи з системою<br/>
-telebot 0.0.5 - Module for creating and configuring bot telegrams / Модуль Для створення та налаштування телеграмм бота<br/>
-sqlite3 - A module for working with a database  / Модуль для роботи с базою данних<br/>
-Jinja2 3.1.3 - A module for creating templates and blocks / Модуль для створення шаблонів та блоків<br/>
-pandas 2.2.2 - Module for reading and parsing data from excel tables / Модуль для читання та парсу даних з excel таблиці<br/>
-openpyxl 3.1.2 - Module for correct reading of excel tables / Модуль для коректного читання excel таблиці<br/>
+<b>flask 3.0.3</b> -  The main module on which the site is written / Основний модуль на якому написан сайт<br/>
+<b>flask_sqlalchemy 3.1.1</b> - A module for working with a database / Модуль для роботи з базою даних<br/>
+<b>flask_migrate 4.0.7</b> - Database initialization module / Модуль для ініціалізації бази даних<br/>
+<b>flask_mail 0.10.0</b> - Module for sending a message to the user's mail / Модуль для відправлення повідомлення на почту користувача<br/>
+<b>flask_login 0.6.3</b> - Для реєстрації користувача на сайті / Модуль для реєстрації користувача на сайті<br/>
+<b>os</b> - Module for working with the system / Модуль для роботи з системою<br/>
+<b>telebot 0.0.5</b> - Module for creating and configuring bot telegrams / Модуль Для створення та налаштування телеграмм бота<br/>
+<b>sqlite3</b> - A module for working with a database  / Модуль для роботи с базою данних<br/>
+<b>Jinja2 3.1.3</b> - A module for creating templates and blocks / Модуль для створення шаблонів та блоків<br/>
+<b>pandas 2.2.2</b> - Module for reading and parsing data from excel tables / Модуль для читання та парсу даних з excel таблиці<br/>
+<b>openpyxl 3.1.2</b> - Module for correct reading of excel tables / Модуль для коректного читання excel таблиці<br/>
 
 #  Project structure / Структура проекту:
 
