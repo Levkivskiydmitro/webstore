@@ -1,7 +1,5 @@
 # Project name / Назва проекту: Shop<br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ваше_видео_id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br/>This is an electronic store where users can buy products / Це електронний магазин де користувачі можуть купить товари<br/> 
 <br/>The project supports and contributes to / Проект підтримує и вносить вклад:<br/>
 
